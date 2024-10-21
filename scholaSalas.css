@@ -4,3 +4,17 @@ body {
     background-size: 100% 100%;
     min-height: 100vh;
 }
+
+nav {
+    background-color: rgb(255, 255, 255);
+    margin: -0.5em;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 0.5vw;
+}
+
+nav a:hover {
+    background-image: linear-gradient(to bottom right, rgb(50, 152, 255), rgb(118, 223, 147));
+}
