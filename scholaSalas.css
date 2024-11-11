@@ -1,5 +1,5 @@
 body {
-    background-image: linear-gradient(to bottom right, rgb(50, 152, 255), rgb(118, 223, 147));
+    background-image: linear-gradient(to bottom right, rgb(0, 42, 255), rgb(0, 174, 255));
     background-repeat: no-repeat;
     background-size: 100% 100%;
     min-height: 100vh;
@@ -8,13 +8,89 @@ body {
 nav {
     background-color: rgb(255, 255, 255);
     margin: -0.5em;
+    display: flex;
+    justify-content: center;
 }
 
-nav a {
-    text-decoration: none;
-    padding: 0.5vw;
+@media screen and (max-width: 12000px){
+    nav a {
+        text-decoration: none;
+        color: grey;
+        padding-left: 20em;
+        padding-right: 20em;
+        padding-top: .5em;
+        padding-bottom: .5em;
+    }
 }
+
+@media screen and (max-width: 8000px){
+    nav a {
+        text-decoration: none;
+        color: grey;
+        padding-left: 15em;
+        padding-right: 15em;
+        padding-top: .5em;
+        padding-bottom: .5em;
+    }
+}
+
+@media screen and (max-width: 3000px){
+    nav a {
+        text-decoration: none;
+        color: grey;
+        padding-left: 7.5em;
+        padding-right: 7.5em;
+        padding-top: .5em;
+        padding-bottom: .5em;
+    }
+}
+
+@media screen and (max-width: 2500px){
+    nav a {
+        text-decoration: none;
+        color: grey;
+        padding-left: 5.5em;
+        padding-right: 5.5em;
+        padding-top: .5em;
+        padding-bottom: .5em;
+    }
+}
+
+@media screen and (max-width: 1440px){
+    nav a {
+        text-decoration: none;
+        color: grey;
+        padding-left: 4.5em;
+        padding-right: 4.5em;
+        padding-top: .5em;
+        padding-bottom: .5em;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    nav a {
+        text-decoration: none;
+        color: grey;
+        padding-left: 3.5em;
+        padding-right: 3.5em;
+        padding-top: .5em;
+        padding-bottom: .5em;
+    }
+}
+
+@media screen and (max-width: 768x){
+    nav a {
+        text-decoration: none;
+        color: grey;
+        padding-left: 0em;
+        padding-right: 0em;
+        padding-top: .5em;
+        padding-bottom: .5em;
+    }
+}
+
 
 nav a:hover {
-    background-image: linear-gradient(to bottom right, rgb(50, 152, 255), rgb(118, 223, 147));
+    background-image: linear-gradient(to bottom right, rgb(0, 42, 255), rgb(0, 174, 255));
+    color: black;
 }
